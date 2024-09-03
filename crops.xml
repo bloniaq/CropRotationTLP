@@ -114,7 +114,7 @@
         <good></good>
         <bad></bad>
     </crop>
-    <crop name="NFIXX" returnPeriod="3" enabled="false">
+    <crop name="NFIXX" returnPeriod="3">
         <good></good>
         <bad></bad>
     </crop>
@@ -156,10 +156,9 @@
         <good>BEETROOT SUGARBEET FODDERBEET CARROT FODDERCARROT POTATO STARCHPOTATO TRITICALE OAT WINTERWHEAT</good>
         <bad>LINSEED</bad>
     </crop>
-        <crop name="MUSTARD" returnPeriod="3" enabled="false">
+        <crop name="MUSTARD" returnPeriod="3">
         <good>POTATO STARCHPOTATO CLOVER SOYBEAN VETCHRYE TRITICALE WINTERBARLEY</good>
         <bad>BEETROOT SUGARBEET FODDERBEET MUSTARD LINSEED</bad>
-    </crop>
     </crop>
     <crop name="SUNFLOWER" returnPeriod="3">
         <good>BEETROOT SUGARBEET FODDERBEET CARROT FODDERCARROT POTATO STARCHPOTATO LUPINE SOYBEAN</good>
