@@ -6,29 +6,13 @@
     [ ] growth [kg/ha] - biomass nutrients required for crop to growth
     [ ] harvest [kg/ha] - biomass left in soil after harvest
  -->
+
+
+    <!-- GRASSES -->
+
     <crop name="ALFALFA" returnPeriod="1">
         <good>SUGARBEET POTATO BEETROOT PARSNIP CANOLA WHEAT RYE TRITICALE OAT SORGHUM</good>
         <bad>CLOVER ALFALFA</bad>
-    </crop>
-    <crop name="BARLEY" returnPeriod="2">
-        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT ONION</good>
-        <bad>BARLEY WHEAT ALFALFA CLOVER SORGHUM</bad>
-    </crop>
-    <crop name="BEETROOT" returnPeriod="3">
-        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
-        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
-    </crop>
-    <crop name="BETAMAXX" returnPeriod="3">
-        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
-        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
-    </crop>
-    <crop name="CANOLA" returnPeriod="3">
-        <good>POTATO BARLEY OAT SOYBEAN GRASS ALFALFA CLOVER RYE TRITICALE GRASS</good>
-        <bad>SUGARBEET BEETROOT ONION PARSNIP CARROT</bad>
-    </crop>
-    <crop name="CARROT" returnPeriod="2">
-        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
-        <bad>CANOLA MAIZE SUGARBEET BEETROOT CARROT</bad>
     </crop>
     <crop name="CLOVER" returnPeriod="1">
         <good>SUGARBEET POTATO BEETROOT PARSNIP CANOLA WHEAT RYE TRITICALE OAT SORGHUM</good>
@@ -38,10 +22,215 @@
         <good></good>
         <bad></bad>
     </crop>
-    <crop name="CULTIVATOR" returnPeriod="1">
+    <crop name="FIELDGRASS" returnPeriod="1">
         <good></good>
         <bad></bad>
     </crop>
+    <crop name="GRASS" returnPeriod="1">
+        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="HERBGRASS" returnPeriod="1">
+        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="HORSEGRASS" returnPeriod="1">
+        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="LANDSCAPEGRASS" returnPeriod="1">
+        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="LAWNGRASS" returnPeriod="1">
+        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="MEADOW" returnPeriod="1" enabled="false">
+        <good>GRASS MEADOW RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="ORCHARDGRASS" returnPeriod="1">
+        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="PASTUREGRASS" returnPeriod="2">
+        <good>MAIZE ONION WHEAT BARLEY OAT RYE TRITICALE</good>
+        <bad>SUGARBEET CARROT POTATO PARSNIP</bad>
+    </crop>
+    <crop name="ROADSIDEGRASS" returnPeriod="2">
+        <good>MAIZE ONION WHEAT BARLEY OAT RYE TRITICALE</good>
+        <bad>SUGARBEET CARROT POTATO PARSNIP</bad>
+    </crop>
+
+    
+    <!-- GRAINS -->
+
+    <crop name="BARLEY" returnPeriod="2">
+        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT ONION</good>
+        <bad>BARLEY WHEAT ALFALFA CLOVER SORGHUM</bad>
+    </crop>
+    <crop name="MAIZE" returnPeriod="1">
+        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN OAT RYE WHEAT MAIZE ALFALFA CLOVER ONION</good>
+        <bad></bad>
+    </crop>
+    <crop name="OAT" returnPeriod="2">
+        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN WHEAT RYE MAIZE BARLEY SORGHUM ALFALFA CLOVER ONION</good>
+        <bad>OAT</bad>
+    </crop>
+    <crop name="RYE" returnPeriod="2">
+        <good>SOYBEAN SUNFLOWER POTATO WHEAT RYE</good>
+        <bad></bad>
+    </crop>
+    <crop name="SILAGEMAIZE" returnPeriod="1">
+        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN OAT RYE WHEAT MAIZE ALFALFA CLOVER ONION</good>
+        <bad></bad>
+    </crop>
+    <crop name="SILAGESORGHUM" returnPeriod="2">
+        <good>SOYBEAN SUNFLOWER RYE TRITICALE</good>
+        <bad>SORGHUM</bad>
+    </crop>
+    <crop name="SORGHUM" returnPeriod="2">
+        <good>SOYBEAN SUNFLOWER RYE TRITICALE</good>
+        <bad>SORGHUM</bad>
+    </crop>
+    <crop name="SPELT" returnPeriod="2">
+        <good>OAT WHEAT RYE TRITICALE BARLEY MAIZE SUNFLOWER SORGHUM POTATO SUGARBEET GRASS</good>
+        <bad>CANOLA SOYBEAN ALFALFA CLOVER</bad>
+    </crop>
+    <crop name="TRITICALE" returnPeriod="2">
+        <good>OAT CANOLA SOYBEAN SUNFLOWER SUGARBEET BEETROOT RYE GRASS SORGHUM</good>
+        <bad>WHEAT TRITICALE</bad>
+    </crop>
+    <crop name="WHEAT" returnPeriod="2">
+        <good>CANOLA SOYBEAN POTATO SUGARBEET BEETROOT TRITICALE ALFALFA CLOVER GRASS SORGHUM</good>
+        <bad>BARLEY WHEAT</bad>
+    </crop>
+    <crop name="WINTERBARLEY" returnPeriod="2">
+        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT ONION</good>
+        <bad>BARLEY WHEAT ALFALFA CLOVER SORGHUM</bad>
+    </crop>
+    <crop name="WINTERWHEAT" returnPeriod="2">
+        <good>CANOLA SOYBEAN POTATO SUGARBEET BEETROOT TRITICALE ALFALFA CLOVER GRASS SORGHUM</good>
+        <bad>BARLEY WHEAT</bad>
+    </crop>
+
+    
+    <!-- GREENINGS -->
+
+    <crop name="BETAMAXX" returnPeriod="3">
+        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
+        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
+    </crop>
+    <crop name="FLOWERMIX" returnPeriod="1">
+        <good></good>
+        <bad></bad>
+    </crop>
+    <crop name="LANDSBERGERGEMENGE" returnPeriod="3">
+        <good></good>
+        <bad></bad>
+    </crop>
+    <crop name="MAISMIX" returnPeriod="2">
+        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN WHEAT RYE MAIZE BARLEY SORGHUM ALFALFA CLOVER ONION</good>
+        <bad>OAT</bad>
+    </crop>
+    <crop name="NFIXX" returnPeriod="1" enabled="false">
+        <good>GRASS MEADOW RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="SOLARIGOL" returnPeriod="2">
+        <good>SOYBEAN SUNFLOWER RYE TRITICALE</good>
+        <bad>SORGHUM</bad>
+    </crop>
+    <crop name="SUMMERMIX" returnPeriod="3">
+        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
+        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
+    </crop>
+    <crop name="VETCHRYE" returnPeriod="2">
+        <good>OAT CANOLA SOYBEAN SUNFLOWER SUGARBEET BEETROOT RYE GRASS SORGHUM</good>
+        <bad>WHEAT TRITICALE</bad>
+    </crop>
+    <crop name="WINTERMIX" returnPeriod="3">
+        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
+        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
+    </crop>
+    
+    
+    <!-- LEGUMES -->
+
+    <crop name="LUPINE" returnPeriod="2">
+        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN WHEAT RYE MAIZE BARLEY SORGHUM ALFALFA CLOVER ONION</good>
+        <bad>OAT</bad>
+    </crop>
+    <crop name="MUSTARD" returnPeriod="1" enabled="false">
+        <good>GRASS MEADOW RYE TRITICALE</good>
+        <bad></bad>
+    </crop>
+    <crop name="SOYBEAN" returnPeriod="2">
+        <good>OAT WHEAT RYE TRITICALE BARLEY MAIZE SUNFLOWER SORGHUM POTATO SUGARBEET GRASS</good>
+        <bad>CANOLA SOYBEAN ALFALFA CLOVER</bad>
+    </crop>
+    
+    <!-- OILSEEDS -->
+    <crop name="CANOLA" returnPeriod="3">
+        <good>POTATO BARLEY OAT SOYBEAN GRASS ALFALFA CLOVER RYE TRITICALE GRASS</good>
+        <bad>SUGARBEET BEETROOT ONION PARSNIP CARROT</bad>
+    </crop>
+    <crop name="LINSEED" returnPeriod="2">
+        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN WHEAT RYE MAIZE BARLEY SORGHUM ALFALFA CLOVER ONION</good>
+        <bad>OAT</bad>
+    </crop>
+    <crop name="OILSEEDRADISH" returnPeriod="2">
+        <good>OAT CANOLA SOYBEAN SUNFLOWER SUGARBEET BEETROOT RYE GRASS SORGHUM</good>
+        <bad>WHEAT TRITICALE</bad>
+    </crop>
+    <crop name="SUNFLOWER" returnPeriod="3">
+        <good>SUGARBEET POTATO BEETROOT PARSNIP GRASS ONION</good>
+        <bad></bad>
+    </crop>
+    
+    
+    <!-- ROOT CROPS -->
+
+    <crop name="BEETROOT" returnPeriod="3">
+        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
+        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
+    </crop>
+    <crop name="CARROT" returnPeriod="2">
+        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
+        <bad>CANOLA MAIZE SUGARBEET BEETROOT CARROT</bad>
+    </crop>
+    <crop name="FODDERBEET" returnPeriod="3">
+        <good></good>
+        <bad></bad>
+    </crop>
+    <crop name="FODDERCARROT" returnPeriod="3">
+        <good></good>
+        <bad></bad>
+    </crop>
+    <crop name="ONION" returnPeriod="3">
+        <good>CANOLA CARROT SUGARBEET WHEAT BARLEY MAIZE OAT RYE TRITICALE</good>
+        <bad>ONION POTATO</bad>
+    </crop>
+    <crop name="PARSNIP" returnPeriod="2">
+        <good>MAIZE ONION WHEAT BARLEY OAT RYE TRITICALE</good>
+        <bad>SUGARBEET CARROT POTATO PARSNIP</bad>
+    </crop>
+    <crop name="POTATO" returnPeriod="3">
+        <good>CANOLA ALFALFA CLOVER</good>
+        <bad>POTATO</bad>
+    </crop>
+    <crop name="STARCHPOTATO" returnPeriod="3">
+        <good>CANOLA ALFALFA CLOVER</good>
+        <bad>POTATO</bad>
+    </crop>
+    <crop name="SUGARBEET" returnPeriod="3">
+        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
+        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
+    </crop>
+
+    <!-- DECORATIONS -->
+
     <crop name="DECOBUSH1" returnPeriod="1">
         <good></good>
         <bad></bad>>
@@ -58,179 +247,14 @@
         <good></good>
         <bad></bad>
     </crop>
-    <crop name="FIELDGRASS" returnPeriod="1">
-        <good></good>
-        <bad></bad>
-    </crop>
-    <crop name="FLOWERMIX" returnPeriod="1">
-        <good></good>
-        <bad></bad>
-    </crop>
-    <crop name="FODDERBEET" returnPeriod="3">
-        <good></good>
-        <bad></bad>
-    </crop>
-    <crop name="FODDERCARROT" returnPeriod="3">
-        <good></good>
-        <bad></bad>
-    </crop>
-    <crop name="GRASS" returnPeriod="1">
-        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="HERBGRASS" returnPeriod="1">
-        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="HORSEGRASS" returnPeriod="1">
-        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="LANDSBERGERGEMENGE" returnPeriod="3">
-        <good></good>
-        <bad></bad>
-    </crop>
-    <crop name="LANDSCAPEGRASS" returnPeriod="1">
-        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="LAWNGRASS" returnPeriod="1">
-        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="LINSEED" returnPeriod="2">
-        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN WHEAT RYE MAIZE BARLEY SORGHUM ALFALFA CLOVER ONION</good>
-        <bad>OAT</bad>
-    </crop>
-    <crop name="LUPINE" returnPeriod="2">
-        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN WHEAT RYE MAIZE BARLEY SORGHUM ALFALFA CLOVER ONION</good>
-        <bad>OAT</bad>
-    </crop>
-    <crop name="MAISMIX" returnPeriod="2">
-        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN WHEAT RYE MAIZE BARLEY SORGHUM ALFALFA CLOVER ONION</good>
-        <bad>OAT</bad>
-    </crop>
-    <crop name="MAIZE" returnPeriod="1">
-        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN OAT RYE WHEAT MAIZE ALFALFA CLOVER ONION</good>
-        <bad></bad>
-    </crop>
-    <crop name="MEADOW" returnPeriod="1" enabled="false">
-        <good>GRASS MEADOW RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="MUSTARD" returnPeriod="1" enabled="false">
-        <good>GRASS MEADOW RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="NFIXX" returnPeriod="1" enabled="false">
-        <good>GRASS MEADOW RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="OAT" returnPeriod="2">
-        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN WHEAT RYE MAIZE BARLEY SORGHUM ALFALFA CLOVER ONION</good>
-        <bad>OAT</bad>
-    </crop>
-    <crop name="OILSEEDRADISH" returnPeriod="2">
-        <good>OAT CANOLA SOYBEAN SUNFLOWER SUGARBEET BEETROOT RYE GRASS SORGHUM</good>
-        <bad>WHEAT TRITICALE</bad>
-    </crop>
-    <crop name="ONION" returnPeriod="3">
-        <good>CANOLA CARROT SUGARBEET WHEAT BARLEY MAIZE OAT RYE TRITICALE</good>
-        <bad>ONION POTATO</bad>
-    </crop>
-    <crop name="ORCHARDGRASS" returnPeriod="1">
-        <good>OAT SUNFLOWER GRASS MEADOW ALFALFA CLOVER RYE TRITICALE</good>
-        <bad></bad>
-    </crop>
-    <crop name="PARSNIP" returnPeriod="2">
-        <good>MAIZE ONION WHEAT BARLEY OAT RYE TRITICALE</good>
-        <bad>SUGARBEET CARROT POTATO PARSNIP</bad>
-    </crop>
-    <crop name="PASTUREGRASS" returnPeriod="2">
-        <good>MAIZE ONION WHEAT BARLEY OAT RYE TRITICALE</good>
-        <bad>SUGARBEET CARROT POTATO PARSNIP</bad>
-    </crop>
+
+
+    <!-- OTHER -->
+
     <crop name="POPLAR" returnPeriod="1">
         <good></good>
         <bad></bad>
-    </crop>
-    <crop name="POTATO" returnPeriod="3">
-        <good>CANOLA ALFALFA CLOVER</good>
-        <bad>POTATO</bad>
-    </crop>
-    <crop name="ROADSIDEGRASS" returnPeriod="2">
-        <good>MAIZE ONION WHEAT BARLEY OAT RYE TRITICALE</good>
-        <bad>SUGARBEET CARROT POTATO PARSNIP</bad>
-    </crop>
-    <crop name="RYE" returnPeriod="2">
-        <good>SOYBEAN SUNFLOWER POTATO WHEAT RYE</good>
-        <bad></bad>
-    </crop>
-    <crop name="SILAGEMAIZE" returnPeriod="1">
-        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT SOYBEAN OAT RYE WHEAT MAIZE ALFALFA CLOVER ONION</good>
-        <bad></bad>
-    </crop>
-    <crop name="SILAGESORGHUM" returnPeriod="2">
-        <good>SOYBEAN SUNFLOWER RYE TRITICALE</good>
-        <bad>SORGHUM</bad>
-    </crop>
-    <crop name="SOLARIGOL" returnPeriod="2">
-        <good>SOYBEAN SUNFLOWER RYE TRITICALE</good>
-        <bad>SORGHUM</bad>
-    </crop>
-    <crop name="SORGHUM" returnPeriod="2">
-        <good>SOYBEAN SUNFLOWER RYE TRITICALE</good>
-        <bad>SORGHUM</bad>
-    </crop>
-    <crop name="SOYBEAN" returnPeriod="2">
-        <good>OAT WHEAT RYE TRITICALE BARLEY MAIZE SUNFLOWER SORGHUM POTATO SUGARBEET GRASS</good>
-        <bad>CANOLA SOYBEAN ALFALFA CLOVER</bad>
-    </crop>
-    <crop name="SPELT" returnPeriod="2">
-        <good>OAT WHEAT RYE TRITICALE BARLEY MAIZE SUNFLOWER SORGHUM POTATO SUGARBEET GRASS</good>
-        <bad>CANOLA SOYBEAN ALFALFA CLOVER</bad>
-    </crop>
-    <crop name="STARCHPOTATO" returnPeriod="3">
-        <good>CANOLA ALFALFA CLOVER</good>
-        <bad>POTATO</bad>
-    </crop>
-    <crop name="SUGARBEET" returnPeriod="3">
-        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
-        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
-    </crop>
-    <crop name="SUMMERMIX" returnPeriod="3">
-        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
-        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
-    </crop>
-    <crop name="SUNFLOWER" returnPeriod="3">
-        <good>SUGARBEET POTATO BEETROOT PARSNIP GRASS ONION</good>
-        <bad></bad>
-    </crop>
-    <crop name="TRITICALE" returnPeriod="2">
-        <good>OAT CANOLA SOYBEAN SUNFLOWER SUGARBEET BEETROOT RYE GRASS SORGHUM</good>
-        <bad>WHEAT TRITICALE</bad>
-    </crop>
-    <crop name="VETCHRYE" returnPeriod="2">
-        <good>OAT CANOLA SOYBEAN SUNFLOWER SUGARBEET BEETROOT RYE GRASS SORGHUM</good>
-        <bad>WHEAT TRITICALE</bad>
-    </crop>
-    <crop name="WHEAT" returnPeriod="2">
-        <good>CANOLA SOYBEAN POTATO SUGARBEET BEETROOT TRITICALE ALFALFA CLOVER GRASS SORGHUM</good>
-        <bad>BARLEY WHEAT</bad>
-    </crop>
-    <crop name="WINTERBARLEY" returnPeriod="2">
-        <good>SUGARBEET BEETROOT PARSNIP POTATO CARROT ONION</good>
-        <bad>BARLEY WHEAT ALFALFA CLOVER SORGHUM</bad>
-    </crop>
-    <crop name="WINTERMIX" returnPeriod="3">
-        <good>BARLEY OAT WHEAT SOYBEAN RYE TRITICALE SORGHUM</good>
-        <bad>CANOLA MAIZE SUGARBEET BEETROOT</bad>
-    </crop>
-    <crop name="WINTERWHEAT" returnPeriod="2">
-        <good>CANOLA SOYBEAN POTATO SUGARBEET BEETROOT TRITICALE ALFALFA CLOVER GRASS SORGHUM</good>
-        <bad>BARLEY WHEAT</bad>
-    </crop>
-
+    </crop>    
     
 
     <!-- CR IS DISABLED
